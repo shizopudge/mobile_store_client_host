@@ -1,15 +1,25 @@
+var fs = require('fs');
 const express = require('express');
 const path = require('path');
 var cookieParser = require('cookie-parser');
+var http = require('http');
+const https = require('https');
+const privateKey  = fs.readFileSync('sslcert/server.key', 'utf8');
+const certificate = fs.readFileSync('sslcert/server.crt', 'utf8');
 
 const app = express();
+
+const credentials = {key: privateKey, cert: certificate};
 
 async function bootstrap() {
     app.use(express.json());
     app.use(express.urlencoded({ extended: false }));
     app.use(cookieParser());
     app.use(express.static(path.join(__dirname, 'public-flutter')));
-    app.listen(8000);
+    const httpServer = http.createServer(app);
+    const httpsServer = https.createServer(credentials, app);
+    httpServer.listen(8080)
+    httpsServer.listen(8443)
 }
 
 bootstrap();
