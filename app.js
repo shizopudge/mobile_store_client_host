@@ -4,8 +4,8 @@ const path = require('path');
 var cookieParser = require('cookie-parser');
 var http = require('http');
 const https = require('https');
-const privateKey  = fs.readFileSync('sslcert/server.key', 'utf8');
-const certificate = fs.readFileSync('sslcert/server.crt', 'utf8');
+const privateKey  = fs.readFileSync('sslcert/key.pem');
+const certificate = fs.readFileSync('sslcert/cert.pem');
 
 const app = express();
 
