@@ -4,15 +4,14 @@ const path = require('path');
 var cookieParser = require('cookie-parser');
 var http = require('http');
 const https = require('https');
-const privateKey  = fs.readFileSync(path.join(__dirname,'./sslcert/key.pem'));
-const certificate = fs.readFileSync(path.join(__dirname,'./sslcert/cert.pem'));
+const privateKey  = fs.readFileSync('sslcert/key.pem', 'utf8');
+const certificate = fs.readFileSync('sslcert/cert.pem', 'utf8');
 
 const app = express();
 
 const credentials = {key: privateKey, cert: certificate};
 
 async function bootstrap() {
-    console.log(credentials);
     app.use(express.json());
     app.use(express.urlencoded({ extended: false }));
     app.use(cookieParser());
