@@ -12,6 +12,7 @@ const app = express();
 const credentials = {key: privateKey, cert: certificate};
 
 async function bootstrap() {
+    console.log(credentials);
     app.use(express.json());
     app.use(express.urlencoded({ extended: false }));
     app.use(cookieParser());
