@@ -36467,7 +36467,7 @@ a9.ds(b0,b1)
 b1=a9.$1$0(b1)
 b0=b1.Hv$
 b0===$&&A.b()
-b0.t2$="https://84.201.179.226:5000/api"
+b0.t2$="https://130.193.52.158:5000/api"
 b0.sPR(B.fG)
 b0=b1.Hv$
 b0.d=B.fG
@@ -112407,7 +112407,7 @@ else q=q>=650&&q<=1100?3:1.5
 return A.f4(p,p,this.c,o,s,A.cl(B.t2,B.X,p,r*q))}}
 A.wk.prototype={
 D(a){var s=this,r=null
-return A.HN(r,new A.aqO(s),r,r,s.d,"https://84.201.179.226:5000/"+s.c,new A.aqP(s),r)}}
+return A.HN(r,new A.aqO(s),r,r,s.d,"https://130.193.52.158:5000/"+s.c,new A.aqP(s),r)}}
 A.aqP.prototype={
 $2(a,b){return A.uS(A.M(B.d.ab(76.5),178,184,194),this.a.e,B.ah,B.d_)},
 $S:121}
@@ -112432,7 +112432,7 @@ p=m*q
 q=o.e
 if(q!=null)m=A.nI(B.j,new A.qp(q.ge0(q)),n,p)
 else{q=o.d
-if(q!=null)m=A.HN(n,new A.awa(p),n,n,new A.awb(o,p),"https://84.201.179.226:5000/"+q,new A.awc(p),n)
+if(q!=null)m=A.HN(n,new A.awa(p),n,n,new A.awb(o,p),"https://130.193.52.158:5000/"+q,new A.awc(p),n)
 else{if(r)s=6
 else s=s>=650&&s<=1100?3.5:2
 s=new A.cM(0.25,A.nI(B.n,n,A.cl(B.QM,B.ah,n,m*s),p),n)
@@ -112596,7 +112596,7 @@ s=A.bU(p*s)
 return A.bq(q,A.wR(B.u,A.aT(r.c,q,q,q,q,q,q,q,B.ak.by(r.d),q,q,q),B.l,B.b1),B.l,q,q,new A.bz(r.e,q,q,s,r.r,q,B.J),q,r.f,q,q,B.P0,q,q,q)}}
 A.Yi.prototype={
 D(a){var s=this,r=null
-return A.HN(r,new A.aqQ(s),r,r,new A.aqR(s),"https://84.201.179.226:5000/"+A.d(s.c),new A.aqS(s),r)}}
+return A.HN(r,new A.aqQ(s),r,r,new A.aqR(s),"https://130.193.52.158:5000/"+A.d(s.c),new A.aqS(s),r)}}
 A.aqR.prototype={
 $2(a,b){return A.nI(B.X,b,null,this.a.d)},
 $S:688}
@@ -117994,7 +117994,7 @@ $S:78}
 A.asF.prototype={
 $1(a){var s,r=null,q=this.b
 if(a<q.gTa()){s=q.z
-return A.dW(r,A.o4(B.u,r,r,r,B.bf,B.b1,r,r,new A.qp("https://84.201.179.226:5000/"+A.d(s==null?r:J.aV(s.e,a))),r,r,!1,B.bg,r),B.v,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,new A.asD(this.a,q,a),r,r,r,r,r,r)}return A.dW(r,A.o4(B.u,r,r,r,B.bf,B.b1,r,r,new A.qp(J.amL(J.aV(q.gfJ(),a-q.gTa()))),r,r,!1,B.bg,r),B.v,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,new A.asE(this.a,q,a),r,r,r,r,r,r)},
+return A.dW(r,A.o4(B.u,r,r,r,B.bf,B.b1,r,r,new A.qp("https://130.193.52.158:5000/"+A.d(s==null?r:J.aV(s.e,a))),r,r,!1,B.bg,r),B.v,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,new A.asD(this.a,q,a),r,r,r,r,r,r)}return A.dW(r,A.o4(B.u,r,r,r,B.bf,B.b1,r,r,new A.qp(J.amL(J.aV(q.gfJ(),a-q.gTa()))),r,r,!1,B.bg,r),B.v,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,new A.asE(this.a,q,a),r,r,r,r,r,r)},
 $S:816}
 A.asD.prototype={
 $0(){var s=this.b.z
@@ -118807,7 +118807,7 @@ l=8*l
 return A.XC(A.b9I(n,B.j,new A.bc(new A.ag(l,l,l,l),A.b2(A.a([B.FC,A.cL(A.biF(B.m,this.d,new A.au_(this),J.bx(this.c)),1)],t.p),B.p,B.q,B.o),n),B.l,0,new A.ag(r,q,r,q),n,new A.dL(o,B.B),n),m)}}
 A.au_.prototype={
 $1(a){var s=null
-return new A.bc(B.dg,A.HN(s,new A.atX(),B.b1,s,new A.atY(),"https://84.201.179.226:5000/"+A.d(J.aV(this.a.c,a)),new A.atZ(),s),s)},
+return new A.bc(B.dg,A.HN(s,new A.atX(),B.b1,s,new A.atY(),"https://130.193.52.158:5000/"+A.d(J.aV(this.a.c,a)),new A.atZ(),s),s)},
 $S:836}
 A.atY.prototype={
 $2(a,b){var s,r=null,q=$.a1
@@ -118853,7 +118853,7 @@ if(s)m=5
 else m=m>=650&&m<=1100?3:2
 m=A.bU(q*m)
 q=A.wd(A.M(51,22,29,41),0.3)
-return new A.bc(new A.ag(0,0,12*r,0),A.lg(p,new A.Hf(0.9090909090909091,A.dW(n,A.bq(n,A.HN(n,new A.au0(),B.b1,n,new A.au1(),"https://84.201.179.226:5000/"+this.d,new A.au2(),n),B.l,n,n,new A.bz(o,n,q,m,n,n,B.J),n,n,n,n,n,n,n,n),B.v,!1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,this.c,n,n,n,n,n,n),n),B.b3),n)}}
+return new A.bc(new A.ag(0,0,12*r,0),A.lg(p,new A.Hf(0.9090909090909091,A.dW(n,A.bq(n,A.HN(n,new A.au0(),B.b1,n,new A.au1(),"https://130.193.52.158:5000/"+this.d,new A.au2(),n),B.l,n,n,new A.bz(o,n,q,m,n,n,B.J),n,n,n,n,n,n,n,n),B.v,!1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,this.c,n,n,n,n,n,n),n),B.b3),n)}}
 A.au1.prototype={
 $2(a,b){var s,r,q,p=null,o=$.E
 o.toString
@@ -118941,7 +118941,7 @@ if(q)p=50
 else p=r>=650&&r<=1100?32:21
 if(q)r=50
 else r=r>=650&&r<=1100?32:21
-s.push(A.HN(B.H,new A.aub(),B.b1,m*p*1.5,new A.auc(this),"https://84.201.179.226:5000/"+n,new A.aud(),m*r*1.5))}else{m.toString
+s.push(A.HN(B.H,new A.aub(),B.b1,m*p*1.5,new A.auc(this),"https://130.193.52.158:5000/"+n,new A.aud(),m*r*1.5))}else{m.toString
 n=$.E
 n.toString
 if(n<650)n=25
