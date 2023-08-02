@@ -119052,7 +119052,7 @@ if(n<650)n=1
 else n=n>=650&&n<=1100?1.5:1.75
 p.push(A.ab(a3,20*n,a3))}if(o&&a5.e===B.cu){a2=A.a(s.y.split(""),t.s)
 B.b.fj(a2,0)
-p.push(new A.li("Color HEX",B.b.jq(a2),!1,a3))}return A.bq(a3,A.b4(p,B.aU,B.q,B.o),B.l,a3,a3,new A.bz(B.j,a3,a3,new A.d7(B.z,new A.bd(a6,a6),B.z,B.z),q,a3,B.J),a3,a3,a3,a3,new A.ag(r,r,r,r),a3,a3,a3)}}
+p.push(new A.li("Color HEX",B.b.jq(a2).toUpperCase(),!1,a3))}return A.bq(a3,A.b4(p,B.aU,B.q,B.o),B.l,a3,a3,new A.bz(B.j,a3,a3,new A.d7(B.z,new A.bd(a6,a6),B.z,B.z),q,a3,B.J),a3,a3,a3,a3,new A.ag(r,r,r,r),a3,a3,a3)}}
 A.aue.prototype={
 $1(a){return a.c.a},
 $S:101}
